@@ -2,7 +2,7 @@ package com.example
 
 import xyz.xenondevs.nova.addon.Addon
 
-object ExampleAddon : Addon() {
+object JulietteCraft : Addon() {
     
     override fun init() {
         // Called when the addon is initialized.
