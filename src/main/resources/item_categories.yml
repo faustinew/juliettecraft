@@ -1,0 +1,8 @@
+misc:
+  icon: juliettecraft:juliette_block
+  name: menu.juliettecraft.items.category.blocks
+  priority: 999
+  items:
+    - juliettecraft:super_dirt
+    - juliettecraft:juliette_block
+    - juliettecraft:ruby

@@ -1,0 +1,19 @@
+{
+  "ruby": "item/ruby",
+  "super_dirt": {
+    "item": "block/super_dirt",
+    "block": {
+      "model": "block/super_dirt",
+      "type": "solid",
+      "priority": 500
+    }
+  },
+  "juliette_block": {
+    "item": "block/juliette_block",
+    "block": {
+      "model": "block/juliette_block",
+      "type": "solid",
+      "priority": 500
+    }
+  }
+}

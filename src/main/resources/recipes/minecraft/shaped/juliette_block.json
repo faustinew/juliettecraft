@@ -1,0 +1,12 @@
+{
+  "result": "juliettecraft:juliette_block",
+  "amount": 1,
+  "shape": [
+    "ddd",
+    "ddd",
+    "ddd"
+  ],
+  "ingredients": {
+    "d": "juliettecraft:super_dirt"
+  }
+}

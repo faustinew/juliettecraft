@@ -1,8 +1,9 @@
-package com.example
+package faustine.juliettecraft
 
 import xyz.xenondevs.nova.addon.Addon
+import xyz.xenondevs.nova.addon.registry.ItemRegistry
 
-object ExampleAddon : Addon() {
+object JulietteCraft : Addon() {
     
     override fun init() {
         // Called when the addon is initialized.
@@ -15,5 +16,4 @@ object ExampleAddon : Addon() {
     override fun onDisable() {
         // Called when the addon is disabled.
     }
-    
 }
