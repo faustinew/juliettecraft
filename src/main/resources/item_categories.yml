@@ -1,0 +1,14 @@
+blocks:
+  icon: juliettecraft:super_dirt
+  name: menu.juliettecraft.items.category.blocks
+  priority: 0
+  items:
+    - juliettecraft:super_dirt
+    - juliettecraft:juliette_block
+
+craft:
+  icon: juliettecraft:ruby
+  name: menu.juliettecraft.items.category.craft
+  priority: 1
+  items:
+    - juliettecraft:ruby
