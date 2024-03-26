@@ -1,0 +1,4 @@
+cooldown: 600
+item_given: "APPLE"
+sound_given: "juliettecraft:block.snake_statue.happy"
+sound_idle: "juliettecraft:block.snake_statue.idle"

@@ -1,8 +1,9 @@
-misc:
+juliette:
   icon: juliettecraft:juliette_block
-  name: menu.juliettecraft.items.category.blocks
+  name: menu.juliettecraft.items.category.juliette
   priority: 999
   items:
     - juliettecraft:super_dirt
     - juliettecraft:juliette_block
+    - juliettecraft:snake_statue
     - juliettecraft:ruby

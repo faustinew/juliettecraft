@@ -1,0 +1,19 @@
+{
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "juliettecraft:super_dirt_patch",
+      "juliettecraft:juliette_block_patch"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}
