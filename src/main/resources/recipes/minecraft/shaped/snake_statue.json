@@ -1,0 +1,13 @@
+{
+  "result": "juliettecraft:snake_statue",
+  "amount": 1,
+  "shape": [
+    "j j",
+    "jjj",
+    "sss"
+  ],
+  "ingredients": {
+    "j": "juliettecraft:juliette_block",
+    "s": "#minecraft:slabs"
+  }
+}

@@ -1,5 +1,7 @@
 {
+  "menu.juliettecraft.items.category.juliette": "JulietteCraft (American Version)",
   "item.juliettecraft.ruby": "American Ruby",
   "block.juliettecraft.super_dirt": "American Super Dirt",
-  "block.juliettecraft.juliette_block": "Juliette Block"
+  "block.juliettecraft.juliette_block": "Juliette Block",
+  "block.juliettecraft.snake_statue": "American Snake Statue"
 }

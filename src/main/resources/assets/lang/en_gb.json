@@ -1,5 +1,7 @@
 {
+  "menu.juliettecraft.items.category.juliette": "JulietteCraft",
   "item.juliettecraft.ruby": "Ruby",
   "block.juliettecraft.super_dirt": "Super Dirt",
-  "block.juliettecraft.juliette_block": "Juliette Block"
+  "block.juliettecraft.juliette_block": "Juliette Block",
+  "block.juliettecraft.snake_statue": "Snake Statue"
 }

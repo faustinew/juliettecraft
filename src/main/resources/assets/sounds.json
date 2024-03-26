@@ -1,0 +1,23 @@
+{
+  "block.snake_statue.idle":
+  {
+    "sounds":
+    [
+      "juliettecraft:block/snake_statue/serpent1",
+      "juliettecraft:block/snake_statue/serpent2",
+      "juliettecraft:block/snake_statue/serpent3",
+      "juliettecraft:block/snake_statue/serpent4",
+      "juliettecraft:block/snake_statue/serpent5",
+      "juliettecraft:block/snake_statue/serpent6",
+      "juliettecraft:block/snake_statue/serpent7"
+    ]
+  },
+  "block.snake_statue.happy":
+  {
+    "sounds":
+    [
+      "juliettecraft:block/snake_statue/serpentwin1",
+      "juliettecraft:block/snake_statue/serpentwin2"
+    ]
+  }
+}

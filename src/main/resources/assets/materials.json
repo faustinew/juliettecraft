@@ -15,5 +15,11 @@
       "type": "solid",
       "priority": 500
     }
+  },
+  "snake_statue": {
+    "item": "block/snake_statue",
+    "block": {
+      "model": "block/snake_statue"
+    }
   }
 }
