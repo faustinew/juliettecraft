@@ -18,8 +18,11 @@ object Blocks : BlockRegistry by JulietteCraft.registry {
     private val HARD_DIRT = BlockOptions(0.6, VanillaToolCategories.SHOVEL, VanillaToolTiers.STONE, false, SoundGroup.GRASS, Material.DIRT)
     private val HARD_STONE = BlockOptions(4.0, VanillaToolCategories.PICKAXE, VanillaToolTiers.IRON, true, SoundGroup.STONE, Material.PINK_CONCRETE_POWDER)
     private val STONE = BlockOptions(3.0, VanillaToolCategories.PICKAXE, VanillaToolTiers.WOOD, false, SoundGroup.STONE, Material.PINK_CONCRETE_POWDER)
+    private val METAL = BlockOptions(5.0,VanillaToolCategories.PICKAXE, VanillaToolTiers.IRON, true, SoundGroup.METAL, Material.EMERALD_BLOCK)
     
     val SUPER_DIRT = block("super_dirt").blockOptions(HARD_DIRT).register()
     val JULIETTE_BLOCK = block("juliette_block").blockOptions(HARD_STONE).register()
+    val RUBY_BLOCK = block("ruby_block").blockOptions(METAL).register()
+    
     val SNAKE_STATUE = tileEntity("snake_statue", ::SnakeStatue).blockOptions(STONE).properties(Directional.NORMAL).register()
 }

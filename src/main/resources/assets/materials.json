@@ -16,6 +16,14 @@
       "priority": 500
     }
   },
+  "ruby_block": {
+    "item": "block/ruby_block",
+    "block": {
+      "model": "block/ruby_block",
+      "type": "solid",
+      "priority": 500
+    }
+  },
   "snake_statue": {
     "item": "block/snake_statue",
     "block": {

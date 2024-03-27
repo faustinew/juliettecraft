@@ -12,5 +12,7 @@ object Items : ItemRegistry by JulietteCraft.registry {
     
     val SUPER_DIRT = registerItem(Blocks.SUPER_DIRT)
     val JULIETTE_BLOCK = registerItem(Blocks.JULIETTE_BLOCK)
+    val RUBY_BLOCK = registerItem(Blocks.RUBY_BLOCK)
+    
     val SNAKE_STATUE = registerItem(Blocks.SNAKE_STATUE)
 }

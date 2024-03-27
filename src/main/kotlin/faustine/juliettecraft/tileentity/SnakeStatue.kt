@@ -12,6 +12,7 @@ import xyz.xenondevs.nova.data.config.entry
 import java.util.Random
 
 private val COOLDOWN: Int by SNAKE_STATUE.config.entry<Int>("cooldown")
+private val IDLE_SOUND_FREQUENCY: Int by SNAKE_STATUE.config.entry<Int>("idle_sound_frequency")
 private val ITEM_GIVEN: String by SNAKE_STATUE.config.entry<String>("item_given")
 private val SOUND_GIVEN: String by SNAKE_STATUE.config.entry<String>("sound_given")
 private val SOUND_IDLE: String by SNAKE_STATUE.config.entry<String>("sound_idle")
@@ -24,8 +25,8 @@ class SnakeStatue(blockState: NovaTileEntityState) : TileEntity(blockState) {
         if(counter > 0){
             counter -= 1
         }
-        if(random.nextInt(200) == 0) {
-            playSoundEffect(SOUND_IDLE,1f,1.2f)
+        if(random.nextInt(IDLE_SOUND_FREQUENCY) == 0) {
+            playSoundEffect(SOUND_IDLE,1f,random.nextFloat(1.1f,1.4f))
         }
     }
     
@@ -36,7 +37,7 @@ class SnakeStatue(blockState: NovaTileEntityState) : TileEntity(blockState) {
             val region = getBlockFrontRegion(1,1,1,1)
             val location = randomRange(region)
             world.dropItem(location, stack)
-            playSoundEffect(SOUND_GIVEN,1f,0.6f)
+            playSoundEffect(SOUND_GIVEN,1f,random.nextFloat(0.4f,0.7f))
             counter = COOLDOWN
         }
         return super.handleRightClick(ctx)

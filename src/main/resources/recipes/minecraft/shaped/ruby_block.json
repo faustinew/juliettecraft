@@ -1,0 +1,12 @@
+{
+  "result": "juliettecraft:ruby_block",
+  "amount": 1,
+  "shape": [
+    "rrr",
+    "rrr",
+    "rrr"
+  ],
+  "ingredients": {
+    "r": "juliettecraft:ruby"
+  }
+}
